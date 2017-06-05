@@ -1,0 +1,107 @@
+
+        body {
+          background-color: rgb(110, 108, 108); 
+          font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+        }
+
+          h1 {
+          color: white;
+          text-shadow: 1px 1px darkgrey;
+        }
+
+        .login {
+          margin-top: 40px;
+        }
+
+        .login-footer {
+          margin-top: 30px;
+        }
+
+        .lnk {
+            color: whitesmoke;
+        }
+
+        .lnk:hover {
+            color: #009999;
+            text-decoration: none;
+        }
+
+        .w3-container {
+          background: rgba(12, 102, 171, 0.5);
+          text-align: center;
+          width: 440px;
+          height: 400px;
+          margin: 100px auto; 
+          border: solid white 2px;
+        }
+
+        .input-group {
+            width: 410px;
+            margin-top: 15px;
+        }
+
+        .btn {
+          cursor: pointer;
+	        display: inline-block;
+	        height: auto;
+          width: 200px;
+          margin-top: 20px;
+	        -webkit-transition: 300ms all;
+	        -moz-transition: 300ms all;
+        	-ms-transition: 300ms all;
+	        -o-transition: 300ms all;
+	        transition: 300ms all;
+	        background-color: rgba(3, 119, 165, 0.3);
+	        border-color: #ffffff;
+	        color: #ffffff;
+	        border-radius: 0.3125rem; 
+	        border-style: solid;
+	        border-width: 0.125rem;
+	        font-family: "Open Sans", sans-serif;
+	        letter-spacing: .15em;
+	        text-decoration: none;
+	        text-transform: uppercase;
+	        font-size: 2rem;
+	        padding: 0.5rem 1rem;
+        }
+
+        .btn:hover {
+	         background-color: rgba(3, 119, 165, 0.9);
+        }
+
+        .btn:active {
+          background-color: #009999;
+          color: whitesmoke;
+          transform: translateY(4px);
+        }
+
+         .w3-input {
+           -webkit-transition: 300ms ease-in-out;
+	         -moz-transition: 300ms ease-in-out;
+	         -ms-transition: 300ms ease-in-out;
+	         -o-transition: 300ms ease-in-out;
+           transition: 300ms ease-in-out;
+	         background: transparent;
+           border: transparent 0;
+	         border-bottom: 1px solid whitesmoke;
+	         color: white; 
+	         font-size: 18px;
+	         font-weight: 400;
+	         margin: 20px auto;
+           padding-top: 20px;
+	         padding-bottom: 1px;
+	         text-overflow: ellipsis;
+	         padding: 0.7rem 0;
+	         width: 100%;
+           outline: none;
+         }
+
+         .w3-input:focus {
+	         background-color: lightgray;
+	         padding-left: 0.5rem;
+	         border-bottom-color: #0377a5;
+           border-radius: 0;
+	         color: rgb(110, 108, 108);
+	         outline: none;
+          }
