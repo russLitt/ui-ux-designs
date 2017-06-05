@@ -19,6 +19,7 @@
 
         .lnk {
             color: whitesmoke;
+            text-decoration: none;
         }
 
         .lnk:hover {
@@ -42,8 +43,8 @@
 
         .btn {
           cursor: pointer;
-	        display: inline-block;
-	        height: auto;
+	      display: inline-block;
+	      height: 45px;
           width: 200px;
           margin-top: 20px;
 	        -webkit-transition: 300ms all;
@@ -61,7 +62,7 @@
 	        letter-spacing: .15em;
 	        text-decoration: none;
 	        text-transform: uppercase;
-	        font-size: 2rem;
+	        font-size: 20px;
 	        padding: 0.5rem 1rem;
         }
 
